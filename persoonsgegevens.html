@@ -1,7 +1,6 @@
          <h2>Gegevensdefinitie</h2>
-         <p><b>Deze tekst is normatief.</b>
-            <!--SIM-InkomenModellen-1.0-1-20230101-20241121-155531 imvertor 4.0.0--></p>
-         <div class="imageinfo overview"><img src="Images/EAID_5B8D0438_9112_44b2_8F16_9F9D0F24AFEB.png" usemap="#imagemap-EAID_5B8D0438_9112_44b2_8F16_9F9D0F24AFEB" alt="Diagram: Persoonsgegevens- overzicht"><map name="imagemap-EAID_5B8D0438_9112_44b2_8F16_9F9D0F24AFEB"><area shape="rect" alt="Vreemdelingendocument" coords="484,1198,892,1374" href="#global_class_Persoonsgegevens_Vreemdelingendocument"><area shape="rect" alt="Verblijfstitel" coords="41,328,306,557" href="#global_class_Persoonsgegevens_Verblijfstitel"><area shape="rect" alt="Verblijf buitenland" coords="1047,669,1386,862" href="#global_class_Persoonsgegevens_Verblijfbuitenland"><area shape="rect" alt="Telefoon" coords="949,63,1363,256" href="#global_class_Persoonsgegevens_Telefoon"><area shape="rect" alt="Persoon" coords="509,368,833,792" href="#global_class_Persoonsgegevens_Persoon"><area shape="rect" alt="Nationaliteit" coords="41,599,427,792" href="#global_class_Persoonsgegevens_Nationaliteit"><area shape="rect" alt="Kanaal documentverzending" coords="1047,498,1341,638" href="#global_class_Persoonsgegevens_Kanaaldocumentverzending"><area shape="rect" alt="Email" coords="688,77,880,186" href="#global_class_Persoonsgegevens_Email"><area shape="rect" alt="Contactgegevens" coords="1038,353,1275,462" href="#global_class_Persoonsgegevens_Contactgegevens"><area shape="rect" alt="Authenticatie" coords="62,967,398,1107" href="#global_class_Persoonsgegevens_Authenticatie"><area shape="rect" alt="Identiteitsbewijs" coords="531,958,845,1115" href="#global_class_Persoonsgegevens_Identiteitsbewijs"></map><p><b>Persoonsgegevens- overzicht</b>
+            <!--SIM-InkomenModellen-1.0-1-20230101-20250106-151317 imvertor 4.0.0--></p>
+         <div class="imageinfo overview"><img src="Images/EAID_B710A5F6_859A_45ae_9835_2CA2F34ECF9C.png" usemap="#imagemap-EAID_B710A5F6_859A_45ae_9835_2CA2F34ECF9C" alt="Diagram: Persoonsgegevens- overzicht"><map name="imagemap-EAID_B710A5F6_859A_45ae_9835_2CA2F34ECF9C"><area shape="rect" alt="Vreemdelingendocument" coords="252,68,659,244" href="#global_class_Persoonsgegevens_Vreemdelingendocument"><area shape="rect" alt="Verblijfstitel" coords="120,497,386,725" href="#global_class_Persoonsgegevens_Verblijfstitel"><area shape="rect" alt="Verblijf buitenland" coords="48,757,387,949" href="#global_class_Persoonsgegevens_Verblijfbuitenland"><area shape="rect" alt="Telefoon" coords="1137,250,1550,443" href="#global_class_Persoonsgegevens_Telefoon"><area shape="rect" alt="Persoon" coords="484,536,809,960" href="#global_class_Persoonsgegevens_Persoon"><area shape="rect" alt="Kanaal documentverzending" coords="910,624,1204,763" href="#global_class_Persoonsgegevens_Kanaaldocumentverzending"><area shape="rect" alt="Identiteitsbewijs" coords="298,296,613,453" href="#global_class_Persoonsgegevens_Identiteitsbewijs"><area shape="rect" alt="Email" coords="1172,101,1364,211" href="#global_class_Persoonsgegevens_Email"><area shape="rect" alt="Contactgegevens" coords="967,484,1204,594" href="#global_class_Persoonsgegevens_Contactgegevens"><area shape="rect" alt="Authenticatie" coords="692,313,1029,453" href="#global_class_Persoonsgegevens_Authenticatie"><area shape="rect" alt="Nationaliteit" coords="910,778,1296,971" href="#global_class_Persoonsgegevens_Nationaliteit"></map><p><b>Persoonsgegevens- overzicht</b>
                
                <p></p>
                </p>
@@ -207,12 +206,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Persoon">Persoon</a>
                            
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonisbereikbaaropContactgegevens">Persoon is bereikbaar op Contactgegevens</a>
                            
                            Contactgegevens
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -368,12 +367,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Persoon">Persoon</a>
                            
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonbezitNationaliteit">Persoon bezit Nationaliteit</a>
                            
                            Nationaliteit
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -519,12 +518,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Persoon">Persoon</a>
                            
-                           [ 0 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonheeftVerblijfbuitenland">Persoon heeft Verblijf buitenland</a>
                            
                            Verblijf buitenland
-                           [ 1 ]
+                           [ 0 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -968,14 +967,14 @@
                      <tr>
                         <td>
                            Persoon
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonbezitIdentiteitsbewijs">Persoon bezit Identiteitsbewijs</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Identiteitsbewijs">Identiteitsbewijs</a>
                            
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -996,42 +995,42 @@
                      <tr>
                         <td>
                            Persoon
-                           [ 0 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonheeftVerblijfbuitenland">Persoon heeft Verblijf buitenland</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Verblijfbuitenland">Verblijf buitenland</a>
                            
-                           [ 1 ]
+                           [ 0 .. * ]
                            </td>
                         <td></td>
                      </tr>
                      <tr>
                         <td>
                            Persoon
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonisbereikbaaropContactgegevens">Persoon is bereikbaar op Contactgegevens</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Contactgegevens">Contactgegevens</a>
                            
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
                      <tr>
                         <td>
                            Persoon
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonbezitNationaliteit">Persoon bezit Nationaliteit</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Nationaliteit">Nationaliteit</a>
                            
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -1040,12 +1039,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Authenticatie">Authenticatie</a>
                            
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Authenticatie_AuthenticatiebetreftPersoon">Authenticatie betreft Persoon</a>
                            
                            Persoon
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -1340,12 +1339,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Persoon">Persoon</a>
                            
-                           [ 1 .. * ]
+                           [ 1 ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Persoon_PersoonbezitIdentiteitsbewijs">Persoon bezit Identiteitsbewijs</a>
                            
                            Identiteitsbewijs
-                           [ 1 ]
+                           [ 1 .. * ]
                            </td>
                         <td></td>
                      </tr>
@@ -1354,12 +1353,12 @@
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Authenticatie">Authenticatie</a>
                            
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Authenticatie_AuthenticatieisuitgevoerdmetIdentiteitsbewijs">Authenticatie is uitgevoerd met Identiteitsbewijs</a>
                            
                            Identiteitsbewijs
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -1751,28 +1750,28 @@
                      <tr>
                         <td>
                            Authenticatie
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Authenticatie_AuthenticatieisuitgevoerdmetIdentiteitsbewijs">Authenticatie is uitgevoerd met Identiteitsbewijs</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Identiteitsbewijs">Identiteitsbewijs</a>
                            
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
                      <tr>
                         <td>
                            Authenticatie
-                           [ 1 ]
+                           [ 0 .. * ]
                            
                            <a class="link" href="#detail_association_Persoonsgegevens_Authenticatie_AuthenticatiebetreftPersoon">Authenticatie betreft Persoon</a>
                            
                            
                            <a class="link" href="#global_class_Persoonsgegevens_Persoon">Persoon</a>
                            
-                           [ 0 .. * ]
+                           [ 1 ]
                            </td>
                         <td></td>
                      </tr>
@@ -4350,7 +4349,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>1</td>
+                              <td>1 .. *</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -4474,7 +4473,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>1</td>
+                              <td>0 .. *</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -4536,7 +4535,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>1</td>
+                              <td>1 .. *</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -4598,7 +4597,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>1</td>
+                              <td>1 .. *</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -6370,7 +6369,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>0 .. *</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
@@ -6432,7 +6431,7 @@
                            </tr>
                            <tr>
                               <th>Indicatie kardinaliteit</th>
-                              <td>0 .. *</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Indicatie authentiek</th>
